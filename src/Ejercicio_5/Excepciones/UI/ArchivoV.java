@@ -57,7 +57,6 @@ public class ArchivoV extends javax.swing.JFrame {
     }
 
     private void BtnArchivoActionPerformed(java.awt.event.ActionEvent evt) {
-        // TODO add your handling code here:
         String texto = LeerArchivo.verDoc();
         TextArea.setText(texto);
     }

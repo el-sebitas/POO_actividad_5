@@ -1,5 +1,7 @@
 package Ejercicio_1.Excepciones.UI;
 
+import Ejercicio_1.Excepciones.Operacion;
+
 import javax.swing.*;
 
 public class Excepcion extends javax.swing.JFrame {
@@ -100,7 +102,6 @@ public class Excepcion extends javax.swing.JFrame {
     }
 
     private void BtnCalcularActionPerformed(java.awt.event.ActionEvent evt) {
-        // TODO add your handling code here:
         String Numerador = NumeradorText.getText();
         String Denominador = DenominadorText.getText();
 
@@ -118,7 +119,6 @@ public class Excepcion extends javax.swing.JFrame {
     }
 
     private void BtnCalcularMouseClicked(java.awt.event.MouseEvent evt) {
-        // TODO add your handling code here:
     }
 
     public static void main(String args[]) {

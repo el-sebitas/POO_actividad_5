@@ -41,32 +41,4 @@ public class EquipoMaratonProgramacion {
         programadores.add(p);
         numEquipo++;
     }
-
-    public static void main(String[] args) throws Exception {
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Nombre: ");
-        String nombre = sc.nextLine();
-        System.out.print("Lenguaje de programacion: ");
-        String lenProgramacion = sc.nextLine();
-        System.out.print("Universidad: ");
-        String universidad = sc.nextLine();
-
-        EquipoMaratonProgramacion equipo = new EquipoMaratonProgramacion(lenProgramacion, nombre, universidad);
-        for (int i = 0; i < 3; i++) {
-            System.out.print("Nombre del programador: ");
-            String nombreP = sc.nextLine();
-            EquipoMaratonProgramacion.validar(nombreP);
-            System.out.print("Apellido del programador: ");
-            String apellido = sc.nextLine();
-            EquipoMaratonProgramacion.validar(apellido);
-
-            Programador p = new Programador(apellido, nombreP);
-            equipo.añadirProgramador(p);
-        }
-
-        System.out.println(equipo.nombreEquipo);
-        System.out.println(equipo.universidad);
-        System.out.println(equipo.lengProgramacion);
-        System.out.println(equipo.programadores.size());
-    }
 }

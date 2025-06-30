@@ -84,7 +84,6 @@ public class LogE extends javax.swing.JFrame {
     }
 
     private void BtnIngresarMouseClicked(java.awt.event.MouseEvent evt) {
-        // TODO add your handling code here:
         Double resultado;
 
         try {
@@ -99,7 +98,6 @@ public class LogE extends javax.swing.JFrame {
     }
 
     private void BtnIngresarActionPerformed(java.awt.event.ActionEvent evt) {
-        // TODO add your handling code here:
     }
 
     private javax.swing.JButton BtnIngresar;

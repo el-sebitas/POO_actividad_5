@@ -36,15 +36,4 @@ public class CalculosNumericos {
         }
         return resultado;
     }
-
-//    public static void main(String[] args) {
-//        Scanner sc = new Scanner(System.in);
-//        System.out.print("Ingrese valor para el logaritmo: ");
-//        double valor = sc.nextDouble();
-//        CalculosNumericos.logE(valor);
-//        System.out.print("Ingrese valor para la raiz cuadrada: ");
-//        valor = sc.nextDouble();
-//        CalculosNumericos.raiz(valor);
-
-//    }
 }

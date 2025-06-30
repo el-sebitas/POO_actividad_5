@@ -105,11 +105,9 @@ public class VentanaVendedor extends javax.swing.JFrame {
     }
 
     private void BtnIngresarMouseClicked(java.awt.event.MouseEvent evt) {
-        // TODO add your handling code here:
     }
 
     private void BtnIngresarActionPerformed(java.awt.event.ActionEvent evt) {
-        // TODO add your handling code here:
         String nombre = NombreText.getText();
         String apellido = ApellidoText.getText();
         int edad = 0;

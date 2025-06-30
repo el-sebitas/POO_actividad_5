@@ -29,16 +29,4 @@ public class Vendedor {
             throw new IllegalArgumentException("Vendedor creado");
         }
     }
-
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Nombre: ");
-        String nombre = sc.nextLine();
-        System.out.print("Apellido: ");
-        String apellido = sc.nextLine();
-        System.out.print("Edad: ");
-        int edad = sc.nextInt();
-        Vendedor vendedor = new Vendedor(apellido, edad, nombre);
-        vendedor.imprimir();
-    }
 }

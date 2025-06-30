@@ -1,4 +1,4 @@
-package Ejercicio_1.Excepciones.UI;
+package Ejercicio_1.Excepciones;
 
 public class PruebaExcepciones {
     public static void main(String[] args) {

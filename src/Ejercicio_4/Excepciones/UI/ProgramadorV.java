@@ -141,7 +141,6 @@ public class ProgramadorV extends JFrame {
     }
 
     private void BtnIngresarMouseClicked(MouseEvent evt) {
-        // TODO add your handling code here:
         boolean ingresar = true;
         String nombre = ""; String apellido = "";
         try {
@@ -169,11 +168,9 @@ public class ProgramadorV extends JFrame {
     }
 
     private void BtnIngresarActionPerformed(ActionEvent evt) {
-        // TODO add your handling code here:
     }
 
     private void BtnIntegrantesMouseClicked(MouseEvent evt) {
-        // TODO add your handling code here:
         String mensaje = "";
 
         if (equipo.programadores.size() != 0) {
@@ -188,7 +185,6 @@ public class ProgramadorV extends JFrame {
     }
 
     private void BtnIntegrantesActionPerformed(ActionEvent evt) {
-        // TODO add your handling code here:
     }
 
     private JTextPane ApellidoText;

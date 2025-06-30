@@ -64,13 +64,11 @@ public class Calculos extends javax.swing.JFrame {
     }
 
     private void BtnLogActionPerformed(java.awt.event.ActionEvent evt) {
-        // TODO add your handling code here:
         LogE logE = new LogE();
         logE.setVisible(true);
     }
 
     private void BtnRaizActionPerformed(java.awt.event.ActionEvent evt) {
-        // TODO add your handling code here:
         Raiz raiz = new Raiz();
         raiz.setVisible(true);
     }

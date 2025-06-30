@@ -112,7 +112,6 @@ public class Equipo extends javax.swing.JFrame {
     }
 
     private void BtnIngresarMouseClicked(java.awt.event.MouseEvent evt) {
-        // TODO add your handling code here:
         String nombre = NombreText.getText();
         String lenguaje = LenguajeText.getText();
         String universidad = UniversidadText.getText();
@@ -123,7 +122,6 @@ public class Equipo extends javax.swing.JFrame {
     }
 
     private void BtnIngresarActionPerformed(java.awt.event.ActionEvent evt) {
-        // TODO add your handling code here:
     }
 
     public static void main(String args[]) {
